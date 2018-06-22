@@ -2,12 +2,12 @@ import java.awt.*;
 import java.awt.event.*;
 import java.net.URL; 
 import javax.swing.*;
-
-public class gamejpanel extends JFrame {   
-   public gamejpanel() {
+//contorl all the setting of the Jframe and Jpanel and call the draw method
+public class GameJpanel extends JFrame {   
+   public GameJpanel() {
       this.setTitle("Zombees");
-      this.setDefaultCloseOperation(EXIT_ON_CLOSE); 
-      this.setSize(new Dimension(1100,830)); 
+      this.setDefaultCloseOperation(EXIT_ON_CLOSE);//end progem
+      this.setSize(new Dimension(1100,820)); //jpanel size
       this.setLocationRelativeTo(null);
       this.getContentPane().setLayout(new BorderLayout());
       JPanel subPanel = new JPanel();

@@ -2,9 +2,9 @@ import java.awt.*;
 import java.awt.event.*;
 import java.net.URL; 
 import javax.swing.*;
-
-public class mainclass{
+//call the panel
+public class MainClass{
     public static void main(String[] args) {
-      gamejpanel p = new gamejpanel();     
+      GameJpanel p = new GameJpanel();     
     }
 }
